@@ -2,31 +2,83 @@
 .navbar{
    width: 100%;
    height: 100px; 
-   background-color:  $mainColor;
+   background-color: $mainColor;
+   color: white;
    position: fixed;
    top: 0; 
-   z-index: 2; 
+   z-index: 3; 
+   transition: all 1s ease;
 
    .wrapper {
        padding: 10px 30px;
        display: flex;
        align-items: center;
+       justify-content: space-between;
        
        .left{
+           display: flex;
+           align-items: center;
            .pic{
                position: fixed;
                top: 0;
                left: 0;
                height: 100px;
                width: 100px;
-               
 
            }
-           .container{
+           .itemContainer{
                display: flex;
+               align-items: center;
+               font-weight: 700;
+               font-size: 30;
+               margin-top: 25px;
+               margin-left: 100px;
+               .icon{
+                   font-size: 20px;
+                   margin-right: 5px;
+               }
+               
            }
+           
        }
-         
+        .right{
+            .hamburger{
+                margin-top: 10px;
+                width: 32px;
+                height: 25px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                cursor: pointer;
+                span{
+                    width: 100%;
+                    height: 3px;
+                    background-color: white;
+                    transform-origin: left;
+                    transition: all 2s ease;
+                }
+            }
+        }
    }
+  &.active {
+      background-color: white;
+      color: $mainColor;
+
+      .hamburger{
+          span{
+              &:first-child{
+                  background-color: $mainColor;
+                  transform: rotate(45deg);
+              }
+              &:nth-child(2){
+                  opacity: 0;
+              }
+              &:last-child{
+                  background-color: $mainColor;
+                  transform: rotate(-45deg);
+              }
+          }
+      }
+  }
 }
 
