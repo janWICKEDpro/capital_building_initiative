@@ -1,7 +1,7 @@
-import React from 'react'
-import logo1 from '../../assets/logo1.jpg'
-import './appBar.scss'
-import  {Person, Mail} from "@material-ui/icons"
+
+import logo1 from '../../assets/logo1.jpg';
+import './appBar.scss';
+import  {Person, Mail} from "@material-ui/icons";
 //
 //
 //
@@ -10,7 +10,7 @@ export default function AppBar ({menuOpen, setMenuOpen}) {
     <div className={"navbar " + (menuOpen && "active")}>
          <div className='wrapper'>
              <div className='left'>
-                 <a href="#intro"><img className = 'pic' src={logo1}  alt ='dfas' /></a>
+                 <a href="#intro"><img className = 'pic' src={logo1}  alt ='CBI' /></a>
              <div className='itemContainer'>
                  <Person className='icon'/>
                  <span>+237 673644734</span>

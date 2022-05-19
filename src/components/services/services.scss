@@ -1,3 +1,27 @@
+@import "../../global.scss";
 .services{
-    background-color: black;
+    background-color: lavender;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1 {
+        font-size: 50px;
+        color: $mainColor;
+        @include mobile{
+          font-size: 20px;
+          margin-top: 20px;
+        }
+      }
+      ul {
+        margin: 30px;
+        padding: 0;
+        list-style: none;
+        display: flex;
+    
+        @include mobile{
+          margin: 40px 0;
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+      }
 }

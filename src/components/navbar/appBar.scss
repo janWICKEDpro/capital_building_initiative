@@ -22,8 +22,9 @@
                position: fixed;
                top: 0;
                left: 0;
-               height: 100px;
-               width: 100px;
+               height: 150px;
+               width: 150px; 
+               border-radius: 0px 25px;
 
            }
            .itemContainer{
@@ -32,7 +33,10 @@
                font-weight: 700;
                font-size: 30;
                margin-top: 25px;
-               margin-left: 100px;
+               margin-left: 150px;
+               @include mobile {
+                   display: none;
+               }
                .icon{
                    font-size: 20px;
                    margin-right: 5px;
@@ -50,6 +54,9 @@
                 flex-direction: column;
                 justify-content: space-between;
                 cursor: pointer;
+                @include mobile{
+                    margin-top: 20px;
+                }
                 span{
                     width: 100%;
                     height: 3px;

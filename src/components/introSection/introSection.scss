@@ -1,4 +1,35 @@
+@import "../../global.scss";
 .intro{
-    background-color: red;
+    position: relative;
+    @include mobile{
+        font-size: 15px;
+        color: white;
+    }
+    .cover{
+        width: 100%;
+        height: calc(100vh - 100px);
+        object-fit: cover;
+        filter: blur(8px);
+    }
+    .welcome{
+        position: absolute;
+        top: 45%;
+        left: 33%;
+        transform: translate(-50%, -50%);
+        width: 30%;
+        height: 50%;
+        @include mobile{
+            left: 28%;
+            width: 40%;
+        }
+        text-align: center;
+        h3{
+            margin-top: 40px;
+        }
+        .comp{
+            color: $mainColor;
+           
+        }
+    }
     
 }
