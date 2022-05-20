@@ -1,13 +1,9 @@
 @import "../../global.scss";
-*{
-	margin:0;
-	padding:0;
-	box-sizing: border-box;
-}
-.container{
-	max-width: 1170px;
-	margin:auto;
-}
+
+// .container{
+// 	max-width: 1170px;
+// 	margin:auto;
+// }
 .row{
 	display: flex;
 	flex-wrap: wrap;
@@ -16,6 +12,7 @@ ul{
 	list-style: none;
 }
 .footer{
+
 	background-color: #24262b;
     padding: 70px 0;
 }
@@ -65,7 +62,7 @@ ul{
 	display: inline-block;
 	height: 40px;
 	width: 40px;
-	background-color: rgba(255,255,255,0.2);
+	//background-color: rgba(255,255,255,0.2);
 	margin:0 10px 10px 0;
 	text-align: center;
 	line-height: 40px;
@@ -77,6 +74,7 @@ ul{
 	color: #24262b;
 	background-color: #ffffff;
 }
+
 
 /*responsive*/
 @media(max-width: 767px){

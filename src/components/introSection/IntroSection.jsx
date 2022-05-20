@@ -12,7 +12,7 @@ export default function IntroSection() {
         showCursor: true,
         backDelay: 1500,
         backSpeed:60,
-        strings: ["Care", "Create", "Establish"],
+        strings: ["Valuable ", "Accessible", "knowledgable", "connected"],
       });
     }, []);
   
@@ -23,7 +23,7 @@ export default function IntroSection() {
           <br/>
           <h1 className='comp'>Capital Building Initiative</h1>
           <hr/>
-          <h2> We <span ref={textRef}></span></h2>
+          <h2> We are <span ref={textRef}></span></h2>
       </div>
     </div>
   )

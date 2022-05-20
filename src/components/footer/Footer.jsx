@@ -1,7 +1,9 @@
  
   import './footer.scss';
+  import  {Facebook, Instagram,Twitter} from "@material-ui/icons";
   
   export default function Footer() {
+    
     return (
       <div className="footer">
 
@@ -18,12 +20,9 @@
              </ul>
            </div>
            <div className="footer-col">
-             <h4>Partners</h4>
+             <h4>Location</h4>
              <ul>
-               <li><a href="#">Chymall</a></li>
-               <li><a href="#">Mecardolibre</a></li>
-               <li><a href="#">Investors Interest</a></li>
-               <li><a href="#">Money man</a></li>
+               <li><a href="#">Buea</a></li>
              </ul>
            </div>
            <div className="footer-col">
@@ -38,10 +37,10 @@
            <div className="footer-col">
              <h4>follow us</h4>
              <div className="social-links">
-               <a href="#"><i className="fab fa-facebook-f"></i></a>
-               <a href="#"><i className="fab fa-twitter"></i></a>
-               <a href="#"><i className="fab fa-instagram"></i></a>
-               <a href="#"><i className="fab fa-linkedin-in"></i></a>
+               <a href="#"><Facebook /></a>
+               <a href="https://twitter.com/JanRoyal12"><Twitter /></a>
+               <a href="#"><Instagram /></a>
+             
              </div>
            </div>
          </div>

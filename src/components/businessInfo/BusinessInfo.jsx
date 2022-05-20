@@ -9,11 +9,13 @@ export default function BusinessInfo() {
       title: "Senior Developer",
       img:"assets/hey.jpg",
       icon: "assets/twitter.png",
+      link: "",
       desc:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
     },
     {
       id: 2,
+      link: "",
       name: "AGYINGI BABACA",
       title: "Founder",
       img:"assets/hey.jpg",
@@ -24,6 +26,7 @@ export default function BusinessInfo() {
     },
     {
       id: 3,
+      link: "",
       name: "Somebody something",
       title: "co-founder",
       img:"assets/hey.jpg",
@@ -45,7 +48,7 @@ export default function BusinessInfo() {
                 src={d.img}
                 alt=""
               />
-              <a href="kfja;lsdjf"><img className="right" src={d.icon} alt="" /></a>
+              <a href={d.link}><img className="right" src={d.icon} alt="" /></a>
             </div>
             <div className="center">
               {d.desc}
