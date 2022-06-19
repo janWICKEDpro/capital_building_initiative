@@ -16,7 +16,6 @@
                <li><a href="#businessinfo">about us</a></li>
                <li><a href="#service">our services</a></li>
                <li><a href="#">privacy policy</a></li>
-               
              </ul>
            </div>
            <div className="footer-col">

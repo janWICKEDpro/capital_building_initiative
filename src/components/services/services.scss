@@ -1,28 +1,43 @@
 @import "../../global.scss";
 
+
+
 .works {
   background-color:#24262b;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-
+  .title{
+    color: white;
+    position: absolute;
+    top:10px;
+  }
   .arrow {
     height: 50px;
     position: absolute;
     cursor: pointer;
 
     @include mobile {
-      display: none;
+      height: 25px;
+      //display: none;
     }
 
     &.left {
       left: 100px;
       transform: rotateY(180deg);
+      @include mobile {
+        left: 10px;
+        //display: none;
+      }
     }
 
     &.right {
       right: 100px;
+      @include mobile {
+        right: 10px;
+        //display: none;
+      }
     }
   }
 
@@ -34,9 +49,9 @@
     transition: all 1s ease-out;
 
     @include mobile {
-      height: 100vh;
-      flex-direction: column;
-      justify-content: center;
+      // height: 100vh;
+      // flex-direction: column;
+      // justify-content: center;
     }
 
     .container {

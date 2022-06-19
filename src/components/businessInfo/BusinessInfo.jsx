@@ -3,16 +3,7 @@ import './businessInfo.scss';
 
 export default function BusinessInfo() {
   const data = [
-    {
-      id: 1,
-      name: "AGYINGI JAN",
-      title: "Senior Developer",
-      img:"assets/hey.jpg",
-      icon: "assets/twitter.png",
-      link: "",
-      desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
-    },
+   
     {
       id: 2,
       link: "",
@@ -33,6 +24,7 @@ export default function BusinessInfo() {
       icon: "assets/twitter.png",
       desc:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
+        featured: true,
     },
   ];
   return (
@@ -40,7 +32,7 @@ export default function BusinessInfo() {
       <h1>Managers</h1>
       <div className="container">
         {data.map((d) => (
-          <div className={d.featured ? "card featured" : "card"}>
+          <div key={d.id} className={d.featured ? "card featured" : "card"}>
             <div className="top">
               <img src="assets/right-arrow.png" className="left" alt="" />
               <img

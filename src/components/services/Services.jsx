@@ -41,12 +41,13 @@ export default function Services() {
   
   return (
     <div className="works" id="service">
+      <h1 className="title">Services</h1>
       <div
         className="slider"
         style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
       >
         {data.map((d) => (
-          <div className="container">
+          <div key={d.id} className="container">
             <div className="item">
               <div className="left">
                 <div className="leftContainer">
@@ -81,5 +82,6 @@ export default function Services() {
         onClick={() => handleClick()}
       />
     </div>
+    
   );
 }
