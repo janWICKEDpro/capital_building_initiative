@@ -24,15 +24,7 @@
                <li><a href="https://en.wikipedia.org/wiki/Buea">Buea</a></li>
              </ul>
            </div>
-           <div className="footer-col">
-             <h4>Contacts</h4>
-             <ul>
-               <li>673644734</li>
-               <li>673218313</li>
-               <li>650871913</li>
-               <li>620013095</li>
-             </ul>
-           </div>
+          
            <div className="footer-col">
              <h4>follow us</h4>
              <div className="social-links">

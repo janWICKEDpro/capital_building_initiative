@@ -10,7 +10,7 @@ export default function AppBar ({menuOpen, setMenuOpen}) {
     <div className={"navbar " + (menuOpen && "active")}>
          <div className='wrapper'>
              <div className='left'>
-                 <a href="#intro"><img className = 'pic' src="assets/logo.png"  alt ='CBI' /></a>
+            
              
              <div className='itemContainer'>
                  <Mail className='icon'/>

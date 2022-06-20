@@ -33,14 +33,9 @@
                font-weight: 700;
                font-size: 30;
                margin-top: 25px;
-               margin-left: 150px;
+               margin-left: 20px;
             
-               @include mobile {
-                   display: none;
-               }
-               .nm {
-                  
-               }
+            
                .icon{
                    font-size: 20px;
                    margin-right: 5px;
