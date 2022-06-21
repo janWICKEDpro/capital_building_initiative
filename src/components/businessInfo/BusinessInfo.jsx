@@ -5,22 +5,22 @@ export default function BusinessInfo() {
   const data = [
    
     {
-      id: 2,
-      link: "",
+      id: 1,
+      link: "https://twitter.com/ReelBabaca",
       name: "AGYINGI BABACA",
-      title: "Founder",
-      img:"assets/hey.jpg",
+      title: "Co-founder",
+      img:"assets/m1.jpeg",
       icon:"assets/twitter.png",
       desc:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
       featured: true,
     },
     {
-      id: 3,
+      id: 2,
       link: "",
       name: "Somebody something",
-      title: "co-founder",
-      img:"assets/hey.jpg",
+      title: "Co-founder",
+      img:"assets/m2.jpeg",
       icon: "assets/twitter.png",
       desc:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
