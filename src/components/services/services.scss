@@ -76,7 +76,6 @@
         }
 
         .left {
-          flex: 4;
           height: 80%;
           display: flex;
           align-items: center;
@@ -90,17 +89,17 @@
             justify-content: space-between;
 
             .imgContainer {
-              width: 40px;
-              height: 40px;
+              width: 60px;
+              height: 60px;
               border-radius: 50%;
-              background-color: rgb(245, 179, 155);
+              background-color: rgb(98, 98, 209);
               display: flex;
               align-items: center;
               justify-content: center;
 
               @include mobile {
-                width: 20px;
-                height: 20px;
+                width: 30px;
+                height: 30px;
               }
 
               img {
@@ -124,27 +123,13 @@
                 display: none;
               }
             }
-            span {
-              font-size: 12px;
-              font-weight: 600;
-              text-decoration: underline;
-              cursor: pointer;
-            }
+           
+          }
+          @include mobile{
+            height: 150px;
           }
         }
-        .right {
-          flex: 8;
-          height: 100%;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          overflow: hidden;
-
-          img {
-            width: 400px;
-            transform: rotate(-10deg);
-          }
-        }
+        
       }
     }
   }

@@ -7,29 +7,64 @@ export default function Services() {
     {
       id: "1",
       icon: "./assets/mobile.png",
-      title: "Web Design",
+      title: "Book Keeping",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-      img:
-        "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
     },
     {
       id: "2",
       icon: "./assets/globe.png",
-      title: "Mobile Application",
+      title: "Tax Declaration",
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      img:
-        "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
     },
     {
       id: "3",
       icon: "./assets/writing.png",
-      title: "Branding",
+      title: "CNPS registration/Declaration",
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      img:
-        "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+    
+    },
+    {
+      id: "4",
+      icon: "./assets/writing.png",
+      title: "Financial planning",
+      desc:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+     
+    },
+    {
+      id: "5",
+      icon: "./assets/writing.png",
+      title: "Payroll",
+      desc:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+       
+    },
+    {
+      id: "6",
+      icon: "./assets/writing.png",
+      title: "Annual statistiscs tax returns",
+      desc:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    
+    },
+    {
+      id: "7",
+      icon: "./assets/writing.png",
+      title: "Control Accounts",
+      desc:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    
+    },
+    {
+      id: "8",
+      icon: "./assets/writing.png",
+      title: "Data Analysis",
+      desc:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    
     },
   ];
 
@@ -55,15 +90,10 @@ export default function Services() {
                     <img src={d.icon} alt="" />
                   </div>
                   <h2>{d.title}</h2>
+                  <br/>
                   <p>{d.desc}</p>
-                  <span>Projects</span>
+                  <br/>
                 </div>
-              </div>
-              <div className="right">
-                <img
-                  src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930"
-                  alt=""
-                />
               </div>
             </div>
           </div>
