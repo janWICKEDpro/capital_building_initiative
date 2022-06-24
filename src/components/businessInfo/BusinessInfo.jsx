@@ -1,4 +1,3 @@
-
 import './businessInfo.scss';
 
 export default function BusinessInfo() {

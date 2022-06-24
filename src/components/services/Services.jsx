@@ -1,4 +1,5 @@
 import { useState } from "react";
+
 import "./services.scss";
 
 export default function Services() {
@@ -76,6 +77,7 @@ export default function Services() {
   
   return (
     <div className="works" id="service">
+      
       <h1 className="title">Services</h1>
       <div
         className="slider"
