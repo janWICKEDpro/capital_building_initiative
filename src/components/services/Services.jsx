@@ -6,14 +6,14 @@ export default function Services() {
   const data = [
     {
       id: "1",
-      icon: "./assets/mobile.png",
+      icon: "./assets/writing.png",
       title: "Book Keeping",
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
     },
     {
       id: "2",
-      icon: "./assets/globe.png",
+      icon: "./assets/writing.png",
       title: "Tax Declaration",
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
@@ -70,7 +70,7 @@ export default function Services() {
 
   const handleClick = (way) => {
     way === "left"
-      ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 2)
+      ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 7)
       : setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0);
   };
   
@@ -91,7 +91,9 @@ export default function Services() {
                   </div>
                   <h2>{d.title}</h2>
                   <br/>
-                  <p>{d.desc}</p>
+                  <div className="text">
+                    {d.desc}
+                  </div>
                   <br/>
                 </div>
               </div>

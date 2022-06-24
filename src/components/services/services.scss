@@ -59,7 +59,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-
+     
       .item {
         width: 700px;
         height: 100%;
@@ -82,7 +82,7 @@
           justify-content: center;
 
           .leftContainer {
-            width: 90%;
+            width: 100%;
             height: 70%;
             display: flex;
             flex-direction: column;
@@ -91,8 +91,6 @@
             .imgContainer {
               width: 60px;
               height: 60px;
-              border-radius: 50%;
-              background-color: rgb(98, 98, 209);
               display: flex;
               align-items: center;
               justify-content: center;
@@ -103,22 +101,21 @@
               }
 
               img {
-                width: 25px;
+                width: 50px;
 
                 @include mobile {
-                  width: 15px;
+                  width: 25px;
                 }
               }
             }
             h2 {
               font-size: 20px;
-
+              color: $mainColor;
               @include mobile{
-                font-size: 13px;
+                font-size: 15px;
               }
             }
-            p {
-              font-size: 13px;
+          .text {
               @include mobile{
                 display: none;
               }
