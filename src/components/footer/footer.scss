@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .container{
-	
+	padding-top: 50px;
 	margin:auto;
 }
 .row{
@@ -16,13 +16,7 @@ ul{
 	background-color: #24262b;
     padding-top: 10px ;
 }
-hr{
-	position: absolute ;
-	bottom: 100%;
-	background-color: $mainColor;
-	margin-left: 20px;
-	margin-right: 20px;
-}
+
 .footer-col{
    width: 23%;
  
@@ -35,7 +29,7 @@ hr{
 	padding-top: 10px;
 	padding-bottom: 10px;
 	margin-bottom: 10px;
-	font-weight: 500;
+	font-weight: 100px;
 	position: relative;
 	padding-left: 40px;
 	//overflow-y: hidden;
@@ -54,7 +48,7 @@ hr{
 	margin-bottom: 10px;
 }
 .footer-col ul li a{
-	font-size: 16px;
+	font-size: 18px;
 	text-transform: capitalize;
 	color: #ffffff;
 	text-decoration: none;

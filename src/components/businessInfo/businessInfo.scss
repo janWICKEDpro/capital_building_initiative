@@ -71,6 +71,7 @@
         justify-content: center;
 
         img {
+        
           &.left,
           &.right {
             height: 25px;
@@ -80,9 +81,9 @@
             height: 120px;
             width: 120px;
             border-radius: 50%;
-            object-fit: cover;
+            object-fit: contain;
             margin: 0 30px;
-
+            image-resolution: from-image 300dpi;
             @include mobile{
               width: 55px;
               height: 55px;

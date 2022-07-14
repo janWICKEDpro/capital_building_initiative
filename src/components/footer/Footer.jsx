@@ -36,7 +36,7 @@
            </div>
          </div>
        </div>
-      <hr />
+     
       
          <p className='copyright'>
             © Capital Building Initiative 2022

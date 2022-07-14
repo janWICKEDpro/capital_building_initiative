@@ -28,6 +28,7 @@
       transform: rotateY(180deg);
       @include mobile {
         left: 10px;
+        top: 50%;
         //display: none;
       }
     }
@@ -36,6 +37,7 @@
       right: 100px;
       @include mobile {
         right: 10px;
+        top: 50%;
         //display: none;
       }
     }
@@ -62,7 +64,7 @@
      
       .item {
         width: 700px;
-        height: 60%;
+        height: 100%;
         background-color: white;
         border-radius: 20px;
         display: flex;
