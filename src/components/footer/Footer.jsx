@@ -28,15 +28,21 @@
            <div className="footer-col">
              <h4>follow us</h4>
              <div className="social-links">
-               <a href="https://www.facebook.com/help/821153694683665"><Facebook /></a>
-               <a href="https://twitter.com/JanRoyal12"><Twitter /></a>
-               <a href="instagram.com"><Instagram /></a>
+               <a href="https://web.facebook.com/CapitalBuildingInitiative"><Facebook /></a>
+               <a href="https://twitter.com/CBIFinance"><Twitter /></a>
+               <a href="https://www.instagram.com/capitalbuildinginitiative/"><Instagram /></a>
              
              </div>
            </div>
          </div>
        </div>
-  
+      <hr />
+      
+         <p className='copyright'>
+            © Capital Building Initiative 2022
+         </p>
+      
+    
   </div>
     )
   }

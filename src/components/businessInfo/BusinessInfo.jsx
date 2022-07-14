@@ -11,7 +11,7 @@ export default function BusinessInfo() {
       img:"assets/m1.jpeg",
       icon:"assets/twitter.png",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
+        "Holds a bachelor's degree in accounting and is knowledgeable in all things tax; be it personal or business ",
       featured: true,
     },
     {
@@ -22,7 +22,7 @@ export default function BusinessInfo() {
       img:"assets/m2.jpeg",
       icon: "assets/twitter.png",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
+        "",
         featured: true,
     },
   ];

@@ -12,21 +12,21 @@ export default function Services() {
       icon: "./assets/writing.png",
       title: "Book Keeping",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
+        "Double entry of financial transactions using prefered accounting software and preparation of monthly, semi-annual and annual statements."
     },
     {
       id: "2",
       icon: "./assets/writing.png",
       title: "Tax Declaration",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Preparation and declaration of monthly and annual tax returns",
     },
     {
       id: "3",
       icon: "./assets/writing.png",
       title: "CNPS registration/Declaration",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Registration of Employees under the NSIF Cameroon and the monthly online declaration of social contribution to be paid",
     
     },
     {
@@ -34,7 +34,7 @@ export default function Services() {
       icon: "./assets/writing.png",
       title: "Financial planning",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Business analytics and aid in decision making based on financial data collected",
      
     },
     {
@@ -42,31 +42,16 @@ export default function Services() {
       icon: "./assets/writing.png",
       title: "Payroll",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Preparation of monthly payslips of all employees  in the business and timely submission",
        
     },
-    {
-      id: "6",
-      icon: "./assets/writing.png",
-      title: "Annual statistiscs tax returns",
-      desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    
-    },
-    {
-      id: "7",
-      icon: "./assets/writing.png",
-      title: "Control Accounts",
-      desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    
-    },
+   
     {
       id: "8",
       icon: "./assets/writing.png",
       title: "Data Analysis",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Analysis of financial and research data with coordinated results and proper interpretation",
     
     },
   ];
@@ -94,7 +79,7 @@ export default function Services() {
         {data.map((d) => (
           <div key={d.id} className="container">
             <div className="item">
-              <div className="left">
+ 
                 <div className="leftContainer">
                   <div className="imgContainer">
                     <img src={d.icon} alt="" />
@@ -105,7 +90,6 @@ export default function Services() {
                     {d.desc}
                   </div>
                   <br/>
-                </div>
               </div>
             </div>
           </div>
