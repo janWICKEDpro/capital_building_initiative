@@ -14,7 +14,7 @@ export default function AppBar ({menuOpen, setMenuOpen}) {
              
              <div className='itemContainer'>
                  <Mail className='icon'/>
-                 <span>camercapital@gmail.com</span>
+                 <span> camercapital@gmail.com</span>
              </div>
             
              </div>

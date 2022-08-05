@@ -11,7 +11,7 @@ export default function BusinessInfo() {
       img:"assets/m1.jpeg",
       icon:"assets/twitter.png",
       desc:
-        "Holds a bachelor's degree in accounting and is knowledgeable in all things tax; be it personal or business ",
+        "Holds an MBA Accounting and Finance, Is a top tier Analyst and Data Analyst with extensive knowledge in Financing and Business.",
       featured: true,
     },
     {
@@ -22,7 +22,7 @@ export default function BusinessInfo() {
       img:"assets/m2.jpeg",
       icon: "assets/twitter.png",
       desc:
-        "",
+        "Holds an MBA Accounting and Finance, Is certified in Accounting Software, a Fiscal adviser and financial controller at SUDEVIN.",
         featured: true,
     },
   ];
