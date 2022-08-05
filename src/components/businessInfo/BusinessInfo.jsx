@@ -28,7 +28,7 @@ export default function BusinessInfo() {
   ];
   return (
     <div className="businessinfo" id="businessinfo">
-      <h2>Managers</h2>
+      <h1>Managers</h1>
       <div className="container">
         {data.map((d) => (
           <div key={d.id} className={d.featured ? "card featured" : "card"}>

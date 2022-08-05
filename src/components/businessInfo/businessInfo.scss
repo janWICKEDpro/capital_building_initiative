@@ -13,11 +13,12 @@
 
   h1 {
     color: $mainColor;
-    font-size: 50px;
+    font-size: 45px;
 
     @include mobile{
       font-size: 20px;
       overflow-y: hidden;
+      margin-bottom: 5px;
     }
   }
 
