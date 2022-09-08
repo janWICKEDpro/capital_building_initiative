@@ -17,12 +17,14 @@ function App() {
       <Router>
         <AppBar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-        <Routes>
-          <Route exact path="/" element={<IntroSection />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/about" element={<BusinessInfo />} />
-        </Routes>
-        <Footer />
+        <div className="sections">
+          <Routes>
+            <Route exact path="/" element={<IntroSection />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/about" element={<BusinessInfo />} />
+          </Routes>
+          <Footer />
+        </div>
       </Router>
     </div>
   );

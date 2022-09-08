@@ -1,39 +1,48 @@
+/** @format */
+
 @import "../../global.scss";
 
+.intro {
+  position: relative;
+  @include mobile {
+    font-size: 13px;
+    color: #24262b;
+  }
 
-.intro{
-    position: relative;
-    @include mobile{
-        font-size: 13px;
-        color: #24262b;
+  .cover {
+    width: 100%;
+    height: calc(100vh - 100px);
+    object-fit: cover;
+    mask-image: linear-gradient(
+      rgba(41, 38, 38, 0.8),
+      rgba(41, 38, 38, 0.8),
+      rgba(41, 38, 38, 0.8),
+      rgba(41, 38, 38, 0.8)
+    );
+    -webkit-mask-image: linear-gradient(
+      rgba(41, 38, 38, 0.8),
+      rgba(41, 38, 38, 0.8),
+      rgba(41, 38, 38, 0.8),
+      rgba(41, 38, 38, 0.8)
+    );
+  }
+  .welcome {
+    position: absolute;
+    top: 45%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: 50%;
+    @include mobile {
+      left: 28%;
+      width: 40%;
     }
-  
-    .cover{
-        width: 100%;
-        height: calc(100vh - 100px);
-        object-fit: cover;
-        mask-image: linear-gradient(rgba(41, 38, 38, 0.8),rgba(41, 38, 38, 0.8),rgba(41, 38, 38, 0.8),rgba(41, 38, 38, 0.8));
-        -webkit-mask-image: linear-gradient(rgba(41, 38, 38, 0.8),rgba(41, 38, 38, 0.8),rgba(41, 38, 38, 0.8),rgba(41, 38, 38, 0.8));
+    text-align: center;
+    h3 {
+      margin-top: 40px;
     }
-    .welcome{
-        position: absolute;
-        top: 45%;
-        left: 33%;
-        transform: translate(-50%, -50%);
-        width: 30%;
-        height: 50%;
-        @include mobile{
-            left: 28%;
-            width: 40%;
-        }
-        text-align: center;
-        h3{
-            margin-top: 40px;
-        }
-        .comp{
-            color: $mainColor;
-           
-        }
+    .comp {
+      color: $mainColor;
     }
-    
+  }
 }
