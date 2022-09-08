@@ -31,17 +31,19 @@
                <a href="https://web.facebook.com/CapitalBuildingInitiative"><Facebook /></a>
                <a href="https://twitter.com/CBIFinance"><Twitter /></a>
                <a href="https://www.instagram.com/capitalbuildinginitiative/"><Instagram /></a>
-             
+               <p className='copyright'>
+            © Capital Building Initiative 2022
+         </p>
              </div>
            </div>
          </div>
        </div>
      
       
-         <p className='copyright'>
+         {/* <p className='copyright'>
             © Capital Building Initiative 2022
          </p>
-      
+       */}
     
   </div>
     )

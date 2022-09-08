@@ -1,3 +1,5 @@
+/** @format */
+
 @import "../../global.scss";
 
 .businessinfo {
@@ -5,17 +7,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 3em;
 
-  @include mobile{
+  @include mobile {
     justify-content: space-around;
   }
-
 
   h1 {
     color: $mainColor;
     font-size: 45px;
 
-    @include mobile{
+    @include mobile {
       font-size: 20px;
       overflow-y: hidden;
       margin-bottom: 5px;
@@ -29,7 +31,7 @@
     align-items: center;
     justify-content: center;
 
-    @include mobile{
+    @include mobile {
       flex-direction: column;
       height: 100%;
     }
@@ -45,25 +47,25 @@
       padding: 20px;
       transition: all 1s ease;
 
-      @include mobile{
+      @include mobile {
         height: 180px;
         margin: 10px 0;
       }
 
-      &.featured{
-          width: 300px;
-          height: 75%;
-          margin: 0 30px;
+      &.featured {
+        width: 300px;
+        height: 75%;
+        margin: 0 30px;
 
-          @include mobile{
-            width: 250px;
-            height: 180px;
-            margin: 1px;
-          }
+        @include mobile {
+          width: 250px;
+          height: 180px;
+          margin: 1px;
+        }
       }
 
-      &:hover{
-          transform: scale(1.1);
+      &:hover {
+        transform: scale(1.1);
       }
 
       .top {
@@ -72,7 +74,6 @@
         justify-content: center;
 
         img {
-        
           &.left,
           &.right {
             height: 25px;
@@ -85,7 +86,7 @@
             object-fit: contain;
             margin: 0 30px;
             image-resolution: from-image 300dpi;
-            @include mobile{
+            @include mobile {
               width: 55px;
               height: 55px;
             }
@@ -98,7 +99,7 @@
         border-radius: 10px;
         background-color: rgb(250, 244, 245);
 
-        @include mobile{
+        @include mobile {
           font-size: 12px;
           padding: 5px;
         }
@@ -112,15 +113,15 @@
         h3 {
           margin-bottom: 5px;
 
-          @include mobile{
+          @include mobile {
             font-size: 14px;
           }
         }
-        h4{
-            color: rgb(121, 115, 115);
-            @include mobile{
-              font-size: 13px;
-            }
+        h4 {
+          color: rgb(121, 115, 115);
+          @include mobile {
+            font-size: 13px;
+          }
         }
       }
     }
