@@ -17,7 +17,7 @@ export default function BusinessInfo() {
     {
       id: 2,
       link: "https://twitter.com/CedricN_G",
-      name: "Bongadu Cedric",
+      name: "BONGADU CEDRIC",
       title: "Co-founder",
       img:"assets/m2.jpeg",
       icon: "assets/twitter.png",
