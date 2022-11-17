@@ -29,28 +29,29 @@ export default function BusinessInfo() {
   return (
     <div className="businessinfo" id="businessinfo">
       <h1>Managers</h1>
-      <div className="container">
+      <div className="container_old">
         {data.map((d) => (
-          <div key={d.id} className={d.featured ? "card featured" : "card"}>
-            <div className="top">
-              <img src="assets/right-arrow.png" className="left" alt="" />
+          <div key={d.id} className={d.featured ? "card_old featured" : "card_old"}>
+            <div className="top_old">
+              <img src="assets/right-arrow.png" className="left_old" alt="" />
               <img
-                className="user"
+                className="user_old"
                 src={d.img}
                 alt=""
               />
-              <a href={d.link}><img className="right" src={d.icon} alt="" /></a>
+              <a href={d.link}><img className="right_old" src={d.icon} alt="" /></a>
             </div>
-            <div className="center">
+            <div className="center_old">
               {d.desc}
             </div>
-            <div className="bottom">
+            <div className="bottom_old">
               <h3>{d.name}</h3>
               <h4>{d.title}</h4>
             </div>
           </div>
         ))}
       </div>
+  
     </div>
   );
 }

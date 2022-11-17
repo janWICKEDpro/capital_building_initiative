@@ -7,7 +7,7 @@ import  { Mail} from "@material-ui/icons";
 //
 export default function AppBar ({menuOpen, setMenuOpen}) {
   return (
-    <div className={"navbar " + (menuOpen && "active")}>
+    <div className={"navbar_old " + (menuOpen && "active")}>
          <div className='wrapper'>
              <div className='left'>
             

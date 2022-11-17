@@ -5,6 +5,7 @@ import Footer from "./components/footer/Footer";
 import IntroSection from "./components/introSection/IntroSection";
 import AppBar from "./components/navbar/AppBar";
 import Services from "./components/services/Services";
+import AccountingAssistance from "./components/accountingAssistance/AccountingAssistance";
 import Menu from "./components/menu/Menu";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./app.scss";
@@ -19,14 +20,10 @@ function App() {
         <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
 
         <div className="sections">
-          <IntroSection />
-          <Services />
-          <BusinessInfo />
-          {/* <Routes>
+          <Routes>
             <Route exact path="/" element={<IntroSection />} />
-            <Route path="/services" element={<Services />} />
-            <Route path="/about" element={<BusinessInfo />} />
-          </Routes> */}
+            <Route path="/accounting" element={<AccountingAssistance />} />
+          </Routes>
 
           <Footer />
         </div>
