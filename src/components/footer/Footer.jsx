@@ -13,7 +13,7 @@
              <h4>Business</h4>
              <ul>
                <li><a href="#intro">Home</a></li>
-               <li><a href="#businessinfo">about us</a></li>
+               <li><a href="#about">about us</a></li>
                <li><a href="#service">our services</a></li>
                <li><a href="#footer">privacy policy</a></li>
              </ul>

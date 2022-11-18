@@ -1,12 +1,17 @@
 /** @format */
 
-import BusinessInfo from "./components/businessInfo/BusinessInfo";
+
 import Footer from "./components/footer/Footer";
 import IntroSection from "./components/introSection/IntroSection";
 import AppBar from "./components/navbar/AppBar";
 import Services from "./components/services/Services";
-import AccountingAssistance from "./components/accountingAssistance/AccountingAssistance";
 import Menu from "./components/menu/Menu";
+import BusinessInfo from "./components/businessInfo/BusinessInfo";
+import Contact from "./components/contact/Contact";
+import Testimonials from "./components/testimonials/Testimonials";
+import About from "./components/about/About";
+
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./app.scss";
 import { useState } from "react";
@@ -20,12 +25,15 @@ function App() {
         <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
 
         <div className="sections">
-          <Routes>
-            <Route exact path="/" element={<IntroSection />} />
-            <Route path="/accounting" element={<AccountingAssistance />} />
-          </Routes>
+          <IntroSection />
+        <About />
+      <Services />
+      <BusinessInfo />
+      <Contact />
+      <Testimonials />
+      <Footer />
 
-          <Footer />
+          
         </div>
       </Router>
     </div>

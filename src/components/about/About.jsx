@@ -7,7 +7,7 @@ import "./about.scss";
 
 export default function About() {
   return (
-    <div class="aboutus-section">
+    <div class="aboutus-section" id="about">
       <div class="container">
         <div class="row">
           <div class="col-md-3 col-sm-6 col-xs-12">

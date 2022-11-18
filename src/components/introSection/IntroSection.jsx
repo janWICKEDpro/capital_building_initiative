@@ -4,11 +4,6 @@ import { init } from "ityped";
 import React, { useEffect, useRef } from "react";
 import "./introSection.scss";
 
-import Services from "../../components/services/Services";
-import BusinessInfo from "../../components/businessInfo/BusinessInfo";
-import Contact from "../../components/contact/Contact";
-import Testimonials from "../../components/testimonials/Testimonials";
-import About from "../../components/about/About";
 
 export default function IntroSection() {
   const textRef = useRef();
@@ -43,11 +38,7 @@ export default function IntroSection() {
           </h2>
         </div>
       </div>
-      <About />
-      <Services />
-      <BusinessInfo />
-      <Contact />
-      <Testimonials />
+     
     </div>
   );
 }

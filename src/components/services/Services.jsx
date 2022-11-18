@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 
 import "./services.scss";
 
+
 export default function Services() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const data = [
@@ -275,6 +276,7 @@ export default function Services() {
           </div>
         </div>
       </section>
+      
     </div>
   );
 }
