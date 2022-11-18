@@ -1,5 +1,5 @@
 /** @format */
-
+@import "../../global.scss";
 .contact {
   padding-bottom: 100px;
 }
@@ -14,7 +14,7 @@
   margin-bottom: 15px;
 }
 .contact .heading h2 span {
-  color: #7035cf;
+  color: $mainColor;
   font-weight: 300;
 }
 .contact .heading p {

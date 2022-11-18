@@ -53,8 +53,8 @@
       }
 
       &.featured {
-        width: 300px;
-        height: 75%;
+        width: 280px;
+        height: 70.5%;
         margin: 0 30px;
 
         @include mobile {
@@ -65,7 +65,7 @@
       }
 
       &:hover {
-        transform: scale(1.1);
+        transform: scale(0.9);
       }
 
       .top_old {
