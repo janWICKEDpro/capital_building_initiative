@@ -75,7 +75,7 @@ export default function Contact() {
                       placeholder="Message"
                     ></textarea>
                   </div>
-                  <button class="btn btn-block" type="submit">
+                  <button class="btn btn-block" type="submit" color="blue">
                     Send Now!
                   </button>
                 </form>
