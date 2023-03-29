@@ -26,6 +26,11 @@ export default function AppBar ({menuOpen, setMenuOpen}) {
                     </div>
              </div>
          </div>
+
+         <a href="https://api.whatsapp.com/send?phone=+237692125609&text=Hello. I got your Whatsapp from your website" class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
     </div>
+    
   )
 }

@@ -49,9 +49,7 @@ export default function About() {
                   <div class="feature-content">
                     <h4>Work with heart</h4>
                     <p>
-                      Aenean vulputate eleifend tellus. Aenean leo ligula,
-                      porttitor eu, consequat vitae, eleifend ac, enim. Aliquam
-                      lorem ante, dapibus in.
+                      
                     </p>
                   </div>
                 </div>
@@ -64,9 +62,7 @@ export default function About() {
                   <div class="feature-content">
                     <h4>Reliable services</h4>
                     <p>
-                      Donec vitae sapien ut libero venenatis faucibu. Nullam
-                      quis ante. Etiam sit amet orci eget eros faucibus
-                      tinciduntddddddddd
+                     
                     </p>
                   </div>
                 </div>
@@ -79,9 +75,7 @@ export default function About() {
                   <div class="feature-content">
                     <h4>Great support</h4>
                     <p>
-                      Aenean vulputate eleifend tellus. Aenean leo ligula,
-                      porttitor eu, consequat vitae, eleifend ac, enim. Aliquam
-                      lorem ante, dapibus in.
+                    
                     </p>
                   </div>
                 </div>
